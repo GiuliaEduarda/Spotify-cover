@@ -1,0 +1,183 @@
+/*
+* 
+* @author Jamilton Damasceno
+*/
+html, body {
+   height: 100%;
+   overflow-x: hidden;
+    
+}
+body{
+    background: url('../imagens/capa.png'), 
+    url('../imagens/ruido.png'),
+    linear-gradient(50deg, #ff4169, #7c26f8 ) ;
+    background-attachment: fixed;
+}
+.navbar{
+    background: rgba(0,0,0,0.6);
+}
+.nav-link{
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .5);}
+    
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 11px 10px;
+}
+.btnn{
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    
+    line-height: 2.0;
+    border-radius: 30px;
+    font-weight: 500;
+}
+#mu{
+    color: white;
+    font-size: 7em ;
+    margin-bottom: 20px;
+    font-weight: 700;
+    
+    
+}
+/*main*/
+
+main{
+    background: white;
+    
+}
+#texto{
+    font-size: 1.3em;
+}
+.oque{
+    font-weight: 600;
+    color: #7c26f8;
+}
+.ma{
+    color: #7c26f8;
+    font-weight: 700;
+}
+
+/* fim main*/
+
+
+
+#rotate{
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    
+    margin-left: 90px;
+    
+   
+    
+}
+#facil{
+    font-weight: 700;
+}
+#texto-facil{
+    font-size: 1.3em;
+}
+
+/* inicio footer */
+
+footer{
+    background: black;
+    padding: 50px 0px 10px 0px;
+    position: relative;
+}
+footer h4{
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+}
+footer .navbar-nav a:hover{
+    color: white;
+   text-decoration: none;
+}
+footer ul{
+    list-style: none;
+}
+
+
+
+
+@media (max-width:578px){
+#mu{
+    color: white;
+    font-size: 4em ;
+    margin-bottom: 20px;
+    font-weight: 600;
+    
+}
+
+
+/*media main*/
+
+.oque{
+    font-size: 2.3em;
+    margin-bottom: 20px;
+}
+.ma{
+    font-size: 1.2em;
+}  
+
+#albuns{
+    display: none;
+}
+
+#texto{
+    
+
+    font-size: 1.2em;
+}
+
+/*fim media main*/
+
+#rotate{
+    transform: none;
+    margin: 0px;
+    padding: 10px;
+    
+}
+#rotate img{
+    margin-bottom: 50px;
+}
+
+/*media footer*/
+
+footer .row div img{
+    margin-bottom: 30px;
+}
+
+footer h4{
+    color: grey;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+#foot{
+    margin-top: 20px;
+}
+
+
+
+}
+
+@media (min-width: 1281px) { 
+    #texto-facil{
+        font-size: 2em;
+    }
+    
+
+ }
+
